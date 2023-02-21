@@ -36,7 +36,7 @@ private Map<String, ShortenUrl> shortenUrlList = new HashMap<>();
 		 shortenUrl.setShort_url("http://localhost:8080/s/"+randomChar);
 		 shortenUrlList.put(randomChar, shortenUrl);
 	}
-
+	//generating dynamic url path to attach url
 	private String getRandomChars() {
 		String randomStr = "";
 		String possibleChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
